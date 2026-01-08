@@ -193,3 +193,23 @@ main {
     width: 100%;
     height: 40%;
 }
+
+/* Figure and caption alignment */ 
+.figure-centered {
+    text-align: center;      /* center the figcaption text */
+    margin: 0.75rem auto;    /* center the whole figure in the page column */
+    max-width: 100%;         /* prevent overflow */
+}
+
+.figure-centered img {
+    display: block;          /* ensure img is block so caption sits below */
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;          /* center the image */
+}
+
+.figure-centered figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #444;
+}
